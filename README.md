@@ -123,19 +123,19 @@ Tahap ini memberikan bukti visual dengan membandingkan bit plane LSB dari file *
 
 ### 4.2 Bukti Gambar
 #### Suspect vs Clean
-![Suspect vs Clean](diff_suspect_vs_clean.png)
+![Suspect vs Clean](proses-investigasi/diff_suspect_vs_clean.png)
 *Gambar 1: Tidak ada kotak merah. Membuktikan Suspect dan Clean memiliki data pixel yang identik.*
 
 #### Suspect vs Steghide
-![Suspect vs Steghide](diff_suspect_vs_steghide.png)
+![Suspect vs Steghide](proses-investigasi/diff_suspect_vs_steghide.png)
 *Gambar 2: Terdeteksi 500 blok perbedaan akibat penyisipan data oleh Steghide.*
 
 #### Suspect vs OpenStego
-![Suspect vs OpenStego](diff_suspect_vs_openstego.png)
+![Suspect vs OpenStego](proses-investigasi/diff_suspect_vs_openstego.png)
 *Gambar 3: Terdeteksi 201 blok perbedaan akibat penyisipan data oleh OpenStego.*
 
 #### Suspect vs Super Clean
-![Suspect vs Super Clean](diff_suspect_vs_superclean.png)
+![Suspect vs Super Clean](proses-investigasi/diff_suspect_vs_superclean.png)
 *Gambar 4: Menunjukkan perbedaan antara file asli (Suspect) dengan hasil sanitasi total.*
 
 ---
@@ -154,3 +154,4 @@ File `Picture_UAS_Steganografi.jpg` terbukti tidak mengandung pesan tersembunyi.
 ---
 **Investigator:** Antigravity AI
 **Tools:** `Python 3.x`, `PIL`, `Numpy`, `Scipy`, `Steghide`
+
